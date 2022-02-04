@@ -1,0 +1,17 @@
+<Configuration>
+  <Add SourcePath="" OfficeClientEdition="64" Channel="PerpetualVL2021" >
+    <Product ID="ProPlus2021Volume">
+      <Language ID="zh-tw" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="SharePointDesigner" />
+      <ExcludeApp ID="Teams" />
+    </Product>
+  </Add>
+  <RemoveMSI All="True" />
+  <Display Level="Full" AcceptEULA="TRUE" /> 
+</Configuration>
