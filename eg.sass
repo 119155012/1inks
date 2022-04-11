@@ -1,0 +1,11 @@
+$box-shadow: 0 0 2px 1px lightgray
+
+@mixin box_shadow
+  -webkit-box-shadow: $box-shadow
+  -moz-box-shadow: $box-shadow
+  -ms-box-shadow: $box-shadow
+  -o-box-shadow: $box-shadow
+  box-shadow: $box-shadow
+
+.panel
+  +box_shadow
